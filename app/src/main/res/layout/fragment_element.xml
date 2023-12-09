@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_green">
+
+    <TextView
+        android:id="@+id/element_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="126dp"
+        android:layout_marginTop="16dp"
+
+        android:layout_marginEnd="113dp"
+        android:text="element_title"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColorHighlight="@color/white"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/neutron"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="152dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="560dp"
+        android:text="Nuetron Count"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/title_neutron"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColorHighlight="@color/white"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/melting_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="294dp"
+        android:layout_marginEnd="285dp"
+        android:layout_marginBottom="418dp"
+        android:text="Melting Point"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColorHighlight="@color/white"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/proton_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="187dp"
+        android:layout_marginEnd="285dp"
+        android:layout_marginBottom="525dp"
+        android:text="Proton Count"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColorHighlight="@color/white"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/electron_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="223dp"
+        android:layout_marginEnd="276dp"
+        android:layout_marginBottom="489dp"
+        android:text="Electron Count"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColorHighlight="@color/white"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/boiling_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="258dp"
+        android:layout_marginEnd="289dp"
+        android:layout_marginBottom="454dp"
+        android:text="Boiling Point"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColorHighlight="@color/white"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/family_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="329dp"
+        android:layout_marginEnd="272dp"
+        android:layout_marginBottom="383dp"
+        android:text="Element Family"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColorHighlight="@color/white"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/title_boiling"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="16dp"
+        android:text=""
+        app:layout_constraintStart_toEndOf="@+id/boiling_box"
+        app:layout_constraintTop_toBottomOf="@+id/electron_box"
+        android:textColorHighlight="@color/white"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/atomic_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="108dp"
+        android:layout_marginEnd="285dp"
+        android:layout_marginBottom="604dp"
+        android:text="Atomic Mass"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColorHighlight="@color/white"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/title_melting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="123dp"
+        android:text=" "
+        app:layout_constraintStart_toEndOf="@+id/melting_box"
+        app:layout_constraintTop_toBottomOf="@+id/neutron"
+        android:textColorHighlight="@color/white"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/title_neutron"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="152dp"
+        android:layout_marginEnd="252dp"
+        android:layout_marginBottom="560dp"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColorHighlight="@color/white"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/title_family"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="329dp"
+        android:layout_marginEnd="229dp"
+        android:layout_marginBottom="383dp"
+        android:text=""
+        android:textColorHighlight="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/family_box"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/title_electron"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="157dp"
+        android:layout_marginTop="223dp"
+        android:layout_marginEnd="254dp"
+        android:layout_marginBottom="489dp"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColorHighlight="@color/white"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/title_atomic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="53dp"
+        android:layout_marginEnd="237dp"
+        android:layout_marginBottom="603dp"
+        android:text="xc"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/atomic_box"
+        app:layout_constraintTop_toBottomOf="@+id/element_title"
+        android:textColorHighlight="@color/white"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/title_proton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text=""
+        app:layout_constraintBaseline_toBaselineOf="@+id/proton_box"
+        app:layout_constraintStart_toEndOf="@+id/neutron"
+        android:textColorHighlight="@color/white"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="363dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="283dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="52dp"
+        android:onClick="backButtonPress"
+        android:text="back"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/family_box" />
+
+    <ImageView
+        android:id="@+id/element_image"
+        android:layout_width="189dp"
+        android:layout_height="190dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="47dp"
+        android:layout_marginEnd="102dp"
+        android:layout_marginBottom="47dp"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/family_box"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

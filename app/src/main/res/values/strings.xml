@@ -1,0 +1,592 @@
+<resources>
+    <string name="app_name">Periodic Table</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="n_title">Nitrogen</string>
+    <string name="n_boiling">-320.4°F</string>
+    <string name="n_melting">-346°F</string>
+    <string name="n_proton">7</string>
+    <string name="n_electron">7</string>
+    <string name="n_neutron">7</string>
+    <string name="n_family">Nonmetal</string>
+    <string name="n_atomic">14.007</string>
+
+    <string name="h_title">Hydrogen</string>
+    <string name="h_boiling">-423.2°F</string>
+    <string name="h_melting">-434.5°F</string>
+    <string name="h_proton">1</string>
+    <string name="h_electron">1</string>
+    <string name="h_neutron">0</string>
+    <string name="h_family">Nonmetal</string>
+    <string name="h_atomic">1.008</string>
+
+    <string name="o_title">Oxygen</string>
+    <string name="o_boiling">-297.3°F</string>
+    <string name="o_melting">-361.8°F</string>
+    <string name="o_proton">8</string>
+    <string name="o_electron">8</string>
+    <string name="o_neutron">8</string>
+    <string name="o_family">Nonmetal</string>
+    <string name="o_atomic">15.999</string>
+
+    <string name="c_title">Carbon</string>
+    <string name="c_boiling">-320.3°F</string>
+    <string name="c_melting">-207.2°F</string>
+    <string name="c_proton">6</string>
+    <string name="c_electron">6</string>
+    <string name="c_neutron">6</string>
+    <string name="c_family">Nonmetal</string>
+    <string name="c_atomic">12.011</string>
+
+    <string name="au_title">Gold</string>
+    <string name="au_boiling">5,371 °F</string>
+    <string name="au_melting">1,945 °F</string>
+    <string name="au_proton">79</string>
+    <string name="au_electron">79</string>
+    <string name="au_neutron">118</string>
+    <string name="au_family">Transition Metals</string>
+    <string name="au_atomic">196.97 u</string>
+
+    <string name="si_title">Silicon</string>
+    <string name="si_boiling">-2972°F</string>
+    <string name="si_melting">2579°F</string>
+    <string name="si_proton">14</string>
+    <string name="si_electron">14</string>
+    <string name="si_neutron">14</string>
+    <string name="si_family">Metalloid</string>
+    <string name="si_atomic">28.085</string>
+
+    <string name="f_title">Fluorine</string>
+    <string name="f_boiling">−306°F</string>
+    <string name="f_melting">−363.32°F</string>
+    <string name="f_proton">9</string>
+    <string name="f_electron">9</string>
+    <string name="f_neutron">10</string>
+    <string name="f_family">Reactive NonMetals</string>
+    <string name="f_atomic">18.998 u</string>
+
+    <string name="ne_title">Neon</string>
+    <string name="ne_boiling">−411 °F</string>
+    <string name="ne_melting">−415.5°F</string>
+    <string name="ne_proton">10</string>
+    <string name="ne_electron">10</string>
+    <string name="ne_neutron">10</string>
+    <string name="ne_family">Noble Gases</string>
+    <string name="ne_atomic">20.180 u</string>
+
+    <string name="ar_title">Argon</string>
+    <string name="ar_boiling">−302.3°F</string>
+    <string name="ar_melting">−308.6°F</string>
+    <string name="ar_proton">18</string>
+    <string name="ar_electron">18</string>
+    <string name="ar_neutron">22</string>
+    <string name="ar_family">Noble Gases</string>
+    <string name="ar_atomic">39.948 u</string>
+
+    <string name="k_title">Potassium</string>
+    <string name="k_boiling">1,400 °F</string>
+    <string name="k_melting">145.90°F</string>
+    <string name="k_proton">19</string>
+    <string name="k_electron">19</string>
+    <string name="k_neutron">20</string>
+    <string name="k_family">Alkali Metals</string>
+    <string name="k_atomic">39.098 u</string>
+
+    <string name="ca_title">Calcium</string>
+    <string name="ca_boiling">2,703°F</string>
+    <string name="ca_melting">1,548°F</string>
+    <string name="ca_proton">20</string>
+    <string name="ca_electron">20</string>
+    <string name="ca_neutron">20</string>
+    <string name="ca_family">Alkaline Earth Metals</string>
+    <string name="ca_atomic">40.078 u</string>
+
+    <string name="sc_title">Scandium</string>
+    <string name="sc_boiling">5,137 °F</string>
+    <string name="sc_melting">2,806 °F</string>
+    <string name="sc_proton">21</string>
+    <string name="sc_electron">21</string>
+    <string name="sc_neutron">24</string>
+    <string name="sc_family">Transition Metals</string>
+    <string name="sc_atomic">44.956 u</string>
+
+
+    <string name="ti_title">Titanium</string>
+    <string name="ti_boiling">5,949 °F</string>
+    <string name="ti_melting">3,020 °F</string>
+    <string name="ti_proton">22</string>
+    <string name="ti_electron">22</string>
+    <string name="ti_neutron">26</string>
+    <string name="ti_family">Transition Metals</string>
+    <string name="ti_atomic">47.867 u</string>
+
+
+    <string name="v_title">Vanadium</string>
+    <string name="v_boiling">6,116 °F</string>
+    <string name="v_melting">3,434 °F</string>
+    <string name="v_proton">23</string>
+    <string name="v_electron">23</string>
+    <string name="v_neutron">28</string>
+    <string name="v_family">Transition Metals</string>
+    <string name="v_atomic">50.942 u</string>
+
+
+    <string name="cr_title">Chromium</string>
+    <string name="cr_boiling">4,500 °F</string>
+    <string name="cr_melting">3,434 °F</string>
+    <string name="cr_proton">24</string>
+    <string name="cr_electron">24</string>
+    <string name="cr_neutron">28</string>
+    <string name="cr_family">Transition Metals</string>
+    <string name="cr_atomic">51.996 u</string>
+
+
+    <string name="mn_title">Manganese</string>
+    <string name="mn_boiling">3,744 °F</string>
+    <string name="mn_melting">2,275 °F</string>
+    <string name="mn_proton">25</string>
+    <string name="mn_electron">25</string>
+    <string name="mn_neutron">30</string>
+    <string name="mn_family">Transition Metals</string>
+    <string name="mn_atomic">54.938 u</string>
+
+
+    <string name="nb_title">Niobium</string>
+    <string name="nb_boiling">8,901° F</string>
+    <string name="nb_melting">4,474° F</string>
+    <string name="nb_proton">41</string>
+    <string name="nb_electron">41</string>
+    <string name="nb_neutron">52</string>
+    <string name="nb_family">Transition Metals</string>
+    <string name="nb_atomic">92.906 u</string>
+
+    <string name="mo_title">Molybdenum</string>
+    <string name="mo_boiling">10,040 °F</string>
+    <string name="mo_melting">4,730 °F</string>
+    <string name="mo_proton">42</string>
+    <string name="mo_electron">42</string>
+    <string name="mo_neutron">52</string>
+    <string name="mo_family">Transition Metals</string>
+    <string name="mo_atomic">95.950 u</string>
+
+    <string name="tc_title">Technetium</string>
+    <string name="tc_boiling">8,811° F</string>
+    <string name="tc_melting">3,942° F</string>
+    <string name="tc_proton">43</string>
+    <string name="tc_electron">43</string>
+    <string name="tc_neutron">55</string>
+    <string name="tc_family">Transition Metals</string>
+    <string name="tc_atomic">98 u</string>
+
+    <string name="ru_title">Ruthenium</string>
+    <string name="ru_boiling">7,052° F</string>
+    <string name="ru_melting">4,082° F</string>
+    <string name="ru_proton">44</string>
+    <string name="ru_electron">44</string>
+    <string name="ru_neutron">57</string>
+    <string name="ru_family">Transition Metals</string>
+    <string name="ru_atomic">101.07 u</string>
+
+    <string name="rh_title">Rhodium</string>
+    <string name="rh_boiling">6,741° F</string>
+    <string name="rh_melting">3,571° F</string>
+    <string name="rh_proton">45</string>
+    <string name="rh_electron">45</string>
+    <string name="rh_neutron">58</string>
+    <string name="rh_family">Transition Metals</string>
+    <string name="rh_atomic">102.91 u</string>
+
+    <string name="pd_title">Palladium</string>
+    <string name="pd_boiling">5,365 °F</string>
+    <string name="pd_melting">2,830.8 °F</string>
+    <string name="pd_proton">46</string>
+    <string name="pd_electron">46</string>
+    <string name="pd_neutron">60</string>
+    <string name="pd_family">Transition Metals</string>
+    <string name="pd_atomic">106.42 u</string>
+    <string name="ag_title">Silver</string>
+    <string name="ag_boiling">4,014 °F</string>
+    <string name="ag_melting">1,861.4 °F</string>
+    <string name="ag_proton">47</string>
+    <string name="ag_electron">47</string>
+    <string name="ag_neutron">61</string>
+    <string name="ag_family">Transition Metals</string>
+    <string name="ag_atomic">107.87 u</string>
+    <string name="cd_title">Cadmium</string>
+    <string name="cd_boiling">1,409 °F</string>
+    <string name="cd_melting">610 °F</string>
+    <string name="cd_proton">48</string>
+    <string name="cd_electron">48</string>
+    <string name="cd_neutron">64</string>
+    <string name="cd_family">Transition Metals</string>
+    <string name="cd_atomic">112.41 u</string>
+    <string name="in_title">Indium</string>
+    <string name="in_boiling">3,776 °F</string>
+    <string name="in_melting">313.89 °F</string>
+    <string name="in_proton">49</string>
+    <string name="in_electron">49</string>
+    <string name="in_neutron">66</string>
+    <string name="in_family">Post-Transition Metals</string>
+    <string name="in_atomic">114.82 u</string>
+
+    <string name="sn_title">Tin</string>
+    <string name="sn_boiling">4,100 °F</string>
+    <string name="sn_melting">449.54 °F</string>
+    <string name="sn_proton">50</string>
+    <string name="sn_electron">50</string>
+    <string name="sn_neutron">69</string>
+    <string name="sn_family">Post-Transition Metals</string>
+    <string name="sn_atomic">118.71 u</string>
+
+
+    <string name="sb_title">Antimony</string>
+    <string name="sb_boiling">2,516 °F</string>
+    <string name="sb_melting">1,166.9 °F</string>
+    <string name="sb_proton">51</string>
+    <string name="sb_electron">51</string>
+    <string name="sb_neutron">71</string>
+    <string name="sb_family">Metalloids</string>
+    <string name="sb_atomic">121.76 u</string>
+
+    <string name="Te_title">Tellurium</string>
+    <string name="Te_boiling">1,813.8 °F</string>
+    <string name="Te_melting">841.6 °F</string>
+    <string name="Te_proton">52</string>
+    <string name="Te_electron">52</string>
+    <string name="Te_neutron">76</string>
+    <string name="Te_family">Metalloids</string>
+    <string name="Te_atomic">127.60 u</string>
+
+    <string name="I_title">Iodine</string>
+    <string name="I_boiling">363 °F</string>
+    <string name="I_melting">236 °F</string>
+    <string name="I_proton">53</string>
+    <string name="I_electron">53</string>
+    <string name="I_neutron">74</string>
+    <string name="I_family">Reactive Nonmetals</string>
+    <string name="I_atomic">126.90 u</string>
+
+    <string name="Xe_title">Xenon</string>
+    <string name="Xe_boiling">−162.4 °F</string>
+    <string name="Xe_melting">−169.4 °F</string>
+    <string name="Xe_proton">54</string>
+    <string name="Xe_electron">54</string>
+    <string name="Xe_neutron">77</string>
+    <string name="Xe_family">Noble Gases</string>
+    <string name="Xe_atomic">131.29 u</string>
+
+    <string name="cs_title">Cesium</string>
+    <string name="cs_boiling">1,240 °F</string>
+    <string name="cs_melting">83.19 °F</string>
+    <string name="cs_proton">55</string>
+    <string name="cs_electron">55</string>
+    <string name="cs_neutron">78</string>
+    <string name="cs_family">Alkali Metals</string>
+    <string name="cs_atomic">132.91 u</string>
+
+    <string name="ba_title">Barium</string>
+    <string name="ba_boiling">3,281 °F</string>
+    <string name="ba_melting">1,341 °F</string>
+    <string name="ba_proton">56</string>
+    <string name="ba_electron">56</string>
+    <string name="ba_neutron">81</string>
+    <string name="ba_family">Alkaline Earth Metals</string>
+    <string name="ba_atomic">137.33 u</string>
+
+    <string name="la_title">Lanthanum</string>
+    <string name="la_boiling">6,267 °F</string>
+    <string name="la_melting">1,684 °F</string>
+    <string name="la_proton">57</string>
+    <string name="la_electron">57</string>
+    <string name="la_neutron">82</string>
+    <string name="la_family">Lanthanides</string>
+    <string name="la_atomic">138.91 u</string>
+
+    <string name="ce_title">Cerium</string>
+    <string name="ce_boiling">6,229 °F</string>
+    <string name="ce_melting">1,468 °F</string>
+    <string name="ce_proton">58</string>
+    <string name="ce_electron">58</string>
+    <string name="ce_neutron">82</string>
+    <string name="ce_family">Lanthanides</string>
+    <string name="ce_atomic">140.12 u</string>
+
+    <string name="pr_title">Praseodymium</string>
+    <string name="pr_boiling">6,368 °F</string>
+    <string name="pr_melting">1,708 °F</string>
+    <string name="pr_proton">59</string>
+    <string name="pr_electron">59</string>
+    <string name="pr_neutron">82</string>
+    <string name="pr_family">Lanthanides</string>
+    <string name="pr_atomic">140.91 u</string>
+
+    <string name="nd_title">Neodymium</string>
+    <string name="nd_boiling">5,565 °F</string>
+    <string name="nd_melting">1,870 °F</string>
+    <string name="nd_proton">60</string>
+    <string name="nd_electron">60</string>
+    <string name="nd_neutron">84</string>
+    <string name="nd_family">Lanthanides</string>
+    <string name="nd_atomic">144.24 u</string>
+
+    <string name="pm_title">Promethium</string>
+    <string name="pm_boiling">5,432 °F</string>
+    <string name="pm_melting">1,908 °F</string>
+    <string name="pm_proton">61</string>
+    <string name="pm_electron">61</string>
+    <string name="pm_neutron">84</string>
+    <string name="pm_family">Lanthanides</string>
+    <string name="pm_atomic">145 u</string>
+
+    <string name="sm_title">Samarium</string>
+    <string name="sm_boiling">3,261 °F</string>
+    <string name="sm_melting">1,965 °F</string>
+    <string name="sm_proton">62</string>
+    <string name="sm_electron">62</string>
+    <string name="sm_neutron">88</string>
+    <string name="sm_family">Lanthanides</string>
+    <string name="sm_atomic">150.36 u</string>
+
+    <string name="eu_title">Europium</string>
+    <string name="eu_boiling">2,781 °F</string>
+    <string name="eu_melting">1,512 °F</string>
+    <string name="eu_proton">63</string>
+    <string name="eu_electron">63</string>
+    <string name="eu_neutron">89</string>
+    <string name="eu_family">Lanthanides</string>
+    <string name="eu_atomic">151.96 u</string>
+
+    <string name="gd_title">Gadolinium</string>
+    <string name="gd_boiling">5,923 °F</string>
+    <string name="gd_melting">2,395 °F</string>
+    <string name="gd_proton">64</string>
+    <string name="gd_electron">64</string>
+    <string name="gd_neutron">93</string>
+    <string name="gd_family">Lanthanides</string>
+    <string name="gd_atomic">157.25 u</string>
+
+    <string name="tb_title">Terbium</string>
+    <string name="tb_boiling">5,846 °F</string>
+    <string name="tb_melting">2,473 °F</string>
+    <string name="tb_proton">65</string>
+    <string name="tb_electron">65</string>
+    <string name="tb_neutron">94</string>
+    <string name="tb_family">Lanthanides</string>
+    <string name="tb_atomic">158.93 u</string>
+
+    <string name="dy_title">Dysprosium</string>
+    <string name="dy_boiling">4,653 °F</string>
+    <string name="dy_melting">2,574 °F</string>
+    <string name="dy_proton">66</string>
+    <string name="dy_electron">66</string>
+    <string name="dy_neutron">97</string>
+    <string name="dy_family">Lanthanides</string>
+    <string name="dy_atomic">162.5 u</string>
+
+    <string name="ho_title">Holmium</string>
+    <string name="ho_boiling">4,892 °F</string>
+    <string name="ho_melting">2,685 °F</string>
+    <string name="ho_proton">67</string>
+    <string name="ho_electron">67</string>
+    <string name="ho_neutron">98</string>
+    <string name="ho_family">Lanthanides</string>
+    <string name="ho_atomic">164.93 u</string>
+
+    <string name="er_title">Erbium</string>
+    <string name="er_boiling">5,194 °F</string>
+    <string name="er_melting">2,784 °F</string>
+    <string name="er_proton">68</string>
+    <string name="er_electron">68</string>
+    <string name="er_neutron">99</string>
+    <string name="er_family">Lanthanides</string>
+    <string name="er_atomic">167.26 u</string>
+
+    <string name="tm_title">Thulium</string>
+    <string name="tm_boiling">3,542 °F</string>
+    <string name="tm_melting">2,813 °F</string>
+    <string name="tm_proton">69</string>
+    <string name="tm_electron">69</string>
+    <string name="tm_neutron">100</string>
+    <string name="tm_family">Lanthanides</string>
+    <string name="tm_atomic">168.93 u</string>
+
+    <string name="yb_title">Ytterbium</string>
+    <string name="yb_boiling">2,185 °F</string>
+    <string name="yb_melting">1,506 °F</string>
+    <string name="yb_proton">70</string>
+    <string name="yb_electron">70</string>
+    <string name="yb_neutron">103</string>
+    <string name="yb_family">Lanthanides</string>
+    <string name="yb_atomic">173.04 u</string>
+
+    <string name="lu_title">Lutetium</string>
+    <string name="lu_boiling">6,156 °F</string>
+    <string name="lu_melting">3,025 °F</string>
+    <string name="lu_proton">71</string>
+    <string name="lu_electron">71</string>
+    <string name="lu_neutron">104</string>
+    <string name="lu_family">Lanthanides</string>
+    <string name="lu_atomic">174.97 u</string>
+    <string name="hf_title">Hafnium</string>
+
+    <string name="hf_boiling">8,317 °F</string>
+    <string name="hf_melting">4,041 °F</string>
+    <string name="hf_proton">72</string>
+    <string name="hf_electron">72</string>
+    <string name="hf_neutron">106</string>
+    <string name="hf_family">Transition Metals</string>
+    <string name="hf_atomic">178.49 u</string>
+
+    <string name="ta_title">Tantalum</string>
+    <string name="ta_boiling">9,797 °F</string>
+    <string name="ta_melting">5,425 °F</string>
+    <string name="ta_proton">73</string>
+    <string name="ta_electron">73</string>
+    <string name="ta_neutron">108</string>
+    <string name="ta_family">Transition Metals</string>
+    <string name="ta_atomic">180.95 u</string>
+
+    <string name="w_title">Tungsten</string>
+    <string name="w_boiling">10706 °F</string>
+    <string name="w_melting">6192 °F</string>
+    <string name="w_proton">74</string>
+    <string name="w_electron">74</string>
+    <string name="w_neutron">110</string>
+    <string name="w_family">Transition Metals</string>
+    <string name="w_atomic">183.84 u</string>
+
+    <string name="re_title">Rhenium</string>
+    <string name="re_boiling">10,161 °F</string>
+    <string name="re_melting">5,756 °F</string>
+    <string name="re_proton">75</string>
+    <string name="re_electron">75</string>
+    <string name="re_neutron">111</string>
+    <string name="re_family">Transition Metals</string>
+    <string name="re_atomic">186.21 u</string>
+
+    <string name="os_title">Osmium</string>
+    <string name="os_boiling">9,032 °F</string>
+    <string name="os_melting">5,432 °F</string>
+    <string name="os_proton">76</string>
+    <string name="os_electron">76</string>
+    <string name="os_neutron">114</string>
+    <string name="os_family">Transition Metals</string>
+    <string name="os_atomic">190.23 u</string>
+
+    <string name="ir_title">Iridium</string>
+    <string name="ir_boiling">8,181° F</string>
+    <string name="ir_melting">4,370° F</string>
+    <string name="ir_proton">77</string>
+    <string name="ir_electron">77</string>
+    <string name="ir_neutron">115</string>
+    <string name="ir_family">Transition Metals</string>
+    <string name="ir_atomic">192.22 u</string>
+
+    <string name="pt_title">Platinum</string>
+    <string name="pt_boiling">6,920 °F</string>
+    <string name="pt_melting">3,216 °F</string>
+    <string name="pt_proton">78</string>
+    <string name="pt_electron">78</string>
+    <string name="pt_neutron">117</string>
+    <string name="pt_family">Transition Metals</string>
+    <string name="pt_atomic">195.08 u</string>
+
+    <string name="hs_title">Hassium</string>
+    <string name="hs_boiling">Unknown</string>
+    <string name="hs_melting">Unknown</string>
+    <string name="hs_proton">108</string>
+    <string name="hs_electron">108</string>
+    <string name="hs_neutron">161</string>
+    <string name="hs_family">Transition Metals</string>
+    <string name="hs_atomic">262 u</string>
+
+
+
+    <string name="bh_title">Bohrium</string>
+    <string name="bh_boiling">Unknown</string>
+    <string name="bh_melting">Unknown</string>
+    <string name="bh_proton">107</string>
+    <string name="bh_electron">107</string>
+    <string name="bh_neutron">160</string>
+    <string name="bh_family">Transition Metals</string>
+    <string name="bh_atomic">269 u</string>
+
+
+    <string name="db_title">Dubnium</string>
+    <string name="db_boiling">Unknown</string>
+    <string name="db_melting">Unknown</string>
+    <string name="db_proton">105</string>
+    <string name="db_electron">105</string>
+    <string name="db_neutron">157</string>
+    <string name="db_family">Transition Metals</string>
+    <string name="db_atomic">268 u</string>
+
+    <string name="rf_title">Rutherfordium</string>
+    <string name="rf_boiling">Unknown</string>
+    <string name="rf_melting">3812.0°F</string>
+    <string name="rf_proton">103</string>
+    <string name="rf_electron">103</string>
+    <string name="rf_neutron">163</string>
+    <string name="rf_family">Transition Metals</string>
+    <string name="rf_atomic">266 u</string>
+
+    <string name="lr_title">Lawrencium</string>
+    <string name="lr_boiling">2960.0°F</string>
+    <string name="lr_melting">3812.0°F</string>
+    <string name="lr_proton">103</string>
+    <string name="lr_electron">103</string>
+    <string name="lr_neutron">163</string>
+    <string name="lr_family">Actinoids</string>
+    <string name="lr_atomic">264 u</string>
+
+    <string name="hg_title">Mercury</string>
+    <string name="hg_boiling">673.91 °F</string>
+    <string name="hg_melting">−37.89 °F</string>
+    <string name="hg_proton">80</string>
+    <string name="hg_electron">80</string>
+    <string name="hg_neutron">121</string>
+    <string name="hg_family">Transition Metals</string>
+    <string name="hg_atomic">200.59 u</string>
+
+    <string name="no_title">Nobelium</string>
+    <string name="no_boiling">unknown</string>
+    <string name="no_melting">1520.6°F</string>
+    <string name="no_proton">102</string>
+    <string name="no_electron">102</string>
+    <string name="no_neutron">157</string>
+    <string name="no_family">Actinoids</string>
+    <string name="no_atomic">260 u</string>
+
+    <string name="md_title">Mendelevium</string>
+    <string name="md_boiling">Unknown</string>
+    <string name="md_melting">1520.6°F</string>
+    <string name="md_proton">101</string>
+    <string name="md_electron">101</string>
+    <string name="md_neutron">157</string>
+    <string name="md_family">Actinoids</string>
+    <string name="md_atomic">264 u</string>
+
+    <string name="tl_title">Thallium</string>
+    <string name="tl_boiling">2,655 °F</string>
+    <string name="tl_melting">578.3 °F</string>
+    <string name="tl_proton">81</string>
+    <string name="tl_electron">81</string>
+    <string name="tl_neutron">123</string>
+    <string name="tl_family">Post-Transition Metals    </string>
+    <string name="tl_atomic">204.38 u</string>
+    <string name="pb_title">Lead</string>
+    <string name="pb_boiling">3,171.2 °F</string>
+    <string name="pb_melting">621.5 °F</string>
+    <string name="pb_proton">82</string>
+    <string name="pb_electron">82</string>
+    <string name="pb_neutron">125</string>
+    <string name="pb_family">Post-Transition Metals</string>
+    <string name="pb_atomic">207.20 u</string>
+    <string name="bi_title">Bismuth</string>
+    <string name="bi_boiling">2,840 °F</string>
+    <string name="bi_melting">520.3 °F</string>
+    <string name="bi_proton">83</string>
+    <string name="bi_electron">83</string>
+    <string name="bi_neutron">126</string>
+    <string name="bi_family">Post-Transition Metals    </string>
+    <string name="bi_atomic">208.98 u</string>
+</resources>
